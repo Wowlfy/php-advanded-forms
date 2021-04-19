@@ -1,3 +1,5 @@
+
+<form action="" method="POST" novalidate>
 <?php
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -31,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 ?>
-<form action="form.php" method="POST">
+
 <?php if (!empty($errors)) : ?>
             <ul class="error">
                 <?php foreach ($errors as $error) : ?>
